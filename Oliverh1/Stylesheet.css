@@ -1,0 +1,58 @@
+.navbar{
+    opacity: 40%;
+    background-color:#d3e8ed;
+    color: transparent;
+    overflow: hidden;
+    
+}
+.navbarcontent{
+    border: thin solid white;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color:white;
+}
+
+.bg{
+    background-image: url("siteback.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: auto  0 0 0;
+    position: relative;
+    width: 1000px;
+    -moz-box-shadow: 0 0 10px 0 #000;
+    -webkit-box-shadow: 0 0 10px 0 #000;
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.bottom{
+    height: 5%;
+    background-color: black;
+    position: relative;
+    width: auto;
+}
+.centertext{
+    display: block;
+    text-align: center;
+    position: relative;
+    
+}
