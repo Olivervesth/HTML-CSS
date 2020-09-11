@@ -1,42 +1,51 @@
-.navbar{
+.navbar {
+    height: auto;
     opacity: 40%;
-    background-color:#d3e8ed;
+    background-color: #d3e8ed;
     color: transparent;
     overflow: hidden;
-    
+
 }
-.navbarcontent{
+
+.navbarcontent {
+    color: black;
+    outline: none;
     border: thin solid white;
     float: left;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
-.navbar a:hover{
-    background-color:white;
+.navbar button:hover {
+    background-color: white;
 }
 
-.bg{
+.bg {
+    overflow: hidden;
     background-image: url("siteback.jpg");
     height: 100%;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-.main{
+.main {
+    filter: blur(8px);
+    overflow: hidden;
+    opacity: 70%;
     background-color: #fff;
     margin: 0 auto;
-    padding: auto  0 0 0;
+    padding: auto 0 0 0;
     position: relative;
     width: 1000px;
     -moz-box-shadow: 0 0 10px 0 #000;
@@ -44,15 +53,68 @@ html, body {
     box-shadow: 0 0 10px 0 #000;
 }
 
-.bottom{
+
+
+.bottom {
     height: 5%;
     background-color: black;
     position: relative;
     width: auto;
 }
-.centertext{
-    display: block;
+
+.centertext {
     text-align: center;
     position: relative;
-    
+}
+
+.main:hover {
+    z-index: 2;
+    filter: none;
+    opacity: 100%;
+}
+
+.titletext {
+    /* background-color: rgb(0, 0, 0);*/
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.scrollnews {
+    scrollbar-color: transparent;
+    height: 100%;
+    width: auto;
+    /*font: 16px/26px Georgia, Garamond, Serif;*/
+    overflow-y: scroll;
+}
+
+.scrollnews::-webkit-scrollbar {
+    display: none;
+}
+
+.spacer {
+    z-index: 2;
+    overflow: hidden;
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    height: 10em;
+}
+
+.adverb {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    left: 30%;
+    top: 60%;
 }
